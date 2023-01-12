@@ -1,6 +1,7 @@
  
 import React from "react";
 import { Link } from "react-router-dom";
+import img from "../../assets/images/pdf/40d80b8089c8418a961cb75d96d491f7.png";
 import styles from "./TaxPayerDisclosure.module.css";
 
 const TaxPayerDisclosure = () => {
@@ -47,7 +48,7 @@ const TaxPayerDisclosure = () => {
             target="_blank"
           >
              <img
-              src="/images/pdf/40d80b8089c8418a961cb75d96d491f7.png"
+              src={img}
               height="120"
               width="100"
               alt=""

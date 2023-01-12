@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
+import closeImg from "../../assets/images/Authenticator/close.png";
+import fbImg from "../../assets/images/Authenticator/facebook.png";
+import googleImg from "../../assets/images/Authenticator/google.png";
 import { FacebookSignIn, GoogleSignIn } from "../../firebase/SocialMediaAuth";
 import useAuth from "../../hooks/useAuth";
 import styles from "./Authenticator.module.css";
@@ -41,7 +44,7 @@ const LogIn = () => {
                   alt="close"
                   width="20"
                   height="20"
-                  src="/images/Authenticator/close.png"
+                  src={closeImg}
                 />
               </Link>
             </div>
@@ -82,14 +85,14 @@ const LogIn = () => {
                   alt="facebook"
                   width="35"
                   height="35"
-                  src="/images/Authenticator/facebook.png"
+                  src={fbImg}
                 />
                  <img
                   onClick={() => handleSocialAuth(GoogleSignIn)}
                   alt="google"
                   width="35"
                   height="35"
-                  src="/images/Authenticator/google.png"
+                  src={googleImg}
                 />
               </div>
             </div>
