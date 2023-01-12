@@ -6,11 +6,17 @@ const TaxPartnerClass = () => {
   return (
     <div className="container">
       <div className={styles.taxPartnerClass}>
-        <h2>
+        <h2 className="">
           <span>Stay Tuned</span> <br />
           for live sessions and updates.
-              </h2>
-               <img src={image} alt="" width="600" height="376" className="img-fluid"/>
+        </h2>
+        <img
+          src={image}
+          alt=""
+          width="600"
+          height="376"
+          className="img-fluid"
+        />
       </div>
     </div>
   );
