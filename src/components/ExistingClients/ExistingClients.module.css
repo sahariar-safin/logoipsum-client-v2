@@ -1,0 +1,96 @@
+.existingClients {
+  margin: 80px 0px;
+}
+
+.existingClients h3 {
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.haveAccount {
+  display: flex;
+  margin-top: 16px;
+}
+
+.haveAccounts {
+  display: flex;
+  margin-right: 30px;
+}
+
+.haveAccount input {
+  margin-right: 10px;
+}
+
+.fileType {
+  /* display: none; */
+}
+
+.existingClientsFormMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.existingClientForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+}
+
+.existingClientForm input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid var(--mainColor);
+}
+
+.existingClientForm input::file-selector-button {
+  display: none;
+}
+
+.uploadDocuments label {
+  margin-bottom: 10px;
+}
+
+.countryCode {
+  display: flex;
+  gap: 10px;
+}
+
+.submitButton {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.submitButton button {
+  padding: 12px 26px;
+}
+
+.selectInput {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--mainColor);
+}
+
+.uploadDocuments {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.existingClients P {
+  margin-top: 50px;
+  text-align: center;
+  font-style: italic;
+}
+
+@media only screen and (max-width: 768px) {
+  .existingClientForm {
+    width: 100%;
+  }
+  .countryCode {
+    flex-direction: column;
+    gap: 0px;
+  }
+}

@@ -1,0 +1,31 @@
+.truthfulHero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  margin: 80px 0px;
+}
+
+.truthfulHeroInfo h2 {
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.truthfulHeroInfo p {
+  margin-bottom: 20px;
+}
+
+.truthfulHeroInfo h5 {
+  font-weight: 600;
+  color: var(--mainColor);
+}
+
+@media only screen and (max-width: 576px) {
+  .truthfulHero {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .truthfulHero {
+    gap: 20px;
+  }
+}

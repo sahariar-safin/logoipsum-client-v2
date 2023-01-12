@@ -1,0 +1,101 @@
+.contactUsMain {
+  margin: 80px 0px;
+}
+
+.contactUsMain h2 {
+  color: var(--mainColor);
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.contactUs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 100px;
+}
+
+.contactUsForm {
+  display: flex;
+  gap: 5px;
+}
+
+.contactUsForm input {
+  margin-bottom: 5px;
+  width: 300px;
+}
+
+.contactUsForm input::placeholder,
+.contactUsForm textarea::placeholder {
+  font-style: italic;
+}
+.contactUsForm input::focus,
+.contactUsForm textarea::focus {
+  border: 1px solid var(--mainColor) !important;
+  outline: 0px;
+}
+
+.contactUsForm textarea {
+  width: 300px;
+  height: 136px;
+  resize: none;
+}
+
+.submitBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submitBtn button {
+  padding: 12px 26px;
+}
+
+.contactUsInfo h4 {
+  font-weight: 600;
+}
+
+.contactUsInfo p {
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 576px) {
+  .contactUs {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+  .contactUsInfo {
+    text-align: center;
+  }
+  .contactUsForm {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .submitBtn {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .contactUsForm input,
+  .contactUsForm textarea {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .contactUs {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+  .contactUsInfo {
+    text-align: center;
+  }
+  .contactUsForm {
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  .contactUs {
+    grid-gap: 30px;
+  }
+}

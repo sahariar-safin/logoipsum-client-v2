@@ -1,0 +1,166 @@
+/* Tax Partners Card */
+.PartnersCard {
+  margin: 70px 0px;
+}
+
+.TaxPartner {
+  margin-top: 80px;
+}
+
+.TaxPartner h2 {
+  font-size: 64px;
+  line-height: 1em;
+  color: #000000;
+  font-weight: 700;
+}
+
+.Card h3 {
+  margin: 20px 0px 10px;
+}
+
+.Card a {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* Tax Partner Ship */
+.partnerShip {
+  margin-top: 70px;
+}
+
+.partnerShip h2 {
+  font-weight: 700;
+  font-size: 34px !important;
+}
+
+.partnerShip li {
+  color: rgb(0, 0, 0);
+  letter-spacing: normal;
+  font-family: barlow-medium, barlow, sans-serif;
+  font-size: 20px;
+  line-height: 1.6em;
+}
+
+.partnerShip ul {
+  margin-bottom: 40px;
+}
+
+.partnerShip h3 {
+  font-weight: 700;
+}
+
+/* Tax Partner Review */
+.PartnerReview {
+  margin: 70px 0px;
+}
+
+.partnerPdf {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.partnerPdf h4 {
+  font-size: 17px;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.review {
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.review::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  transform: translateY(-50%);
+  background-image: url("../../assets/images/pdf/man.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 285px;
+  height: 315px;
+}
+
+/* .review::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("/images/pdf/bgright.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+} */
+
+.review p {
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+  max-width: 220px;
+}
+
+/* Tax Partners Form */
+
+.PartnersForm {
+  margin: 70px 0px;
+}
+
+.partnersText h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.partnersText h2 span {
+  color: #0369a1;
+}
+
+.partnersText p {
+  margin: 0px;
+  color: #000000;
+}
+
+/*Tax Partners Application Form */
+.ApplicationForm {
+  margin: 100px 0px 50px;
+}
+
+.Form {
+  text-align: center;
+}
+
+.Form input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+}
+
+.Form input {
+  width: 100%;
+}
+
+.Form select {
+  width: 100%;
+  margin: 10px 0px 20px;
+  padding: 10px 15px;
+}
+
+.Form button {
+  width: 300px !important;
+}
+
+/*Tax Partners Calendar */
+.Calendar {
+  text-align: center;
+  width: 435px !important;
+  margin: 0 auto;
+  margin-top: 100px;
+}

@@ -1,0 +1,68 @@
+.privacyPolicyMain {
+  margin: 80px 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.privacyPolicy {
+  padding-top: 20px;
+  border-right: 1px solid #dbdbdb;
+  padding-right: 50px;
+}
+
+.clientSecurity {
+  border-left: 1px solid #dbdbdb;
+  padding-left: 50px;
+}
+
+.privacyPolicy,
+.clientSecurity {
+  padding-top: 20px;
+}
+
+.privacyPolicy h3,
+.clientSecurity h3 {
+  margin-bottom: 30px;
+}
+
+.privacyPolicy h3 span,
+.clientSecurity h3 span {
+  font-weight: 600;
+}
+
+.clientSecurity h5 {
+  font-weight: 600;
+}
+
+.privacyPolicyList {
+  margin-bottom: 50px;
+}
+
+.privacyPolicy a {
+  background-color: var(--mainColor);
+  color: white;
+}
+
+.privacyPolicy a:hover {
+  background-color: transparent;
+  color: var(--mainColor);
+}
+
+@media only screen and (max-width: 576px) {
+  .privacyPolicyMain {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .privacyPolicy {
+    border-right: none;
+    padding-right: 0px;
+  }
+
+  .clientSecurity {
+    border-left: none;
+    padding-left: 0px;
+    padding-top: 50px;
+  }
+  .privacyPolicy a {
+    padding: 18px 26px;
+  }
+}

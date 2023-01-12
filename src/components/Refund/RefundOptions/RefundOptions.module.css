@@ -1,0 +1,42 @@
+.refundOptions {
+  margin: 80px 0px;
+}
+
+.refundOptions {
+}
+.refundOptions h2 {
+  text-align: center;
+  color: var(--mainColor);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.refundOptions > p {
+  text-align: center;
+}
+
+.refundOptionInfo > h3 {
+  font-weight: 600;
+  font-style: italic;
+  padding-bottom: 50px;
+  border-bottom: 5px solid var(--mainColor);
+}
+
+.refundOptionSubInfo > h3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+.refundOptionSubInfo > h6 {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.refundOptionSubInfo > a {
+  font-weight: 600;
+}
+
+/* .refundOptionSubInfoFirst {
+  border-bottom: 5px solid #dbdbdb;
+} */

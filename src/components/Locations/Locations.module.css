@@ -1,0 +1,33 @@
+/* Locations Hero */
+
+.LocationsHero {
+    margin: 20px 0px 0px;
+}
+
+.heroText {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.heroText h2 {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.heroText h2 span {
+    font-weight: 700;
+    color: #0369a1;
+}
+
+.heroText img {
+    width: 76px;
+    height: 80px;
+}
+
+/* Location Details */
+.LocationDetails .map {
+    width: 100%;
+    border-radius: 10px;
+}

@@ -1,0 +1,53 @@
+.Connect {
+    background-color: #FAFAFA;
+    padding: 75px 0px;
+}
+
+.Connect h3 {
+    text-align: center;
+}
+
+.Connect h2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    max-width: 590px;
+    padding: 30px;
+    border: 1px solid #DEF2EF;
+    border-radius: 20px;
+    min-height: 622px;
+}
+
+.card h4 {
+    font-family: 'PF Square Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    margin: 30px 0px 20px;
+    color: #1A1A1A;
+}
+
+.card p {
+    font-family: 'PF Square Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #484848;
+}
+
+@media only screen and (max-width: 576px) {
+    .Connect h2 {
+        margin-bottom: 30px;
+    }
+
+    .card {
+        padding: 10px;
+        min-height: 560px;
+        margin-bottom: 30px;
+    }
+}

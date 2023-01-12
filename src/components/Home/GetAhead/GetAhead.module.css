@@ -1,0 +1,45 @@
+.GetAhead {
+    padding: 75px 0px;
+}
+
+.aheadText h3 {
+    font-family: 'PF Square Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 125%;
+    color: #0369A1;
+}
+
+.aheadText h2 {
+    font-family: 'PF Square Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 125%;
+    color: #000D14;
+}
+
+.aheadText p {
+    font-family: 'PF Square Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    color: #3C484E;
+}
+
+@media only screen and (max-width: 576px) {
+    .aheadText h3 {
+        margin-top: 10px;
+        font-size: 20px;
+        line-height: 125%;
+    }
+
+    .aheadText h2 {
+        margin-top: 0px;
+        font-size: 32px;
+        line-height: 125%;
+
+    }
+}

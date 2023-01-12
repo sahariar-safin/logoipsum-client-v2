@@ -1,0 +1,40 @@
+.trueReceiptCards {
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 100px;
+}
+
+.trueReceiptSingleCards {
+  display: flex;
+  gap: 15px;
+}
+
+.trueReceiptSingleCards h3 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.trueReceiptSingleCards p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.trueReceiptSingleCards a {
+  color: var(--mainColor);
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 576px) {
+  .trueReceiptCards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .trueReceiptCards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+  }
+}

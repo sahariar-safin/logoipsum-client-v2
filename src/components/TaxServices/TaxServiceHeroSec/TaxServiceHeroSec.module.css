@@ -1,0 +1,115 @@
+.heroSec {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 30px;
+  margin: 80px 0px;
+}
+
+.heroSecMain {
+  background-color: #fcfcfc;
+}
+
+.heroSecHeader {
+}
+
+.heroSecHeader h2 {
+  color: var(--mainColor);
+}
+
+.heroSecHeader p {
+  width: 445px;
+}
+
+/* .heroSecMain {
+  position: relative;
+  z-index: 10;
+} */
+
+/* .heroSecMain::after {
+  content: "";
+  background: url("/images/11062b_af6bcd5887df450d8cfa4d04286ac78c_mv2.png");
+  position: absolute;
+  width: 804px;
+  height: 379px;
+  z-index: 1;
+  right: 0px;
+  top: 0px;
+}
+
+.heroSecMain::before {
+  content: "";
+  position: absolute;
+  width: 804px;
+  height: 379px;
+  background-color: var(--mainColor);
+  z-index: 100;
+  right: 0px;
+  top: 0px;
+  opacity: 0.6;
+} */
+
+.heroSecImage img {
+  /* margin-left: -27px;
+  position: relative;
+  z-index: 200;
+  top: 10px; */
+  /* width: 100%; */
+}
+
+@media only screen and (max-width: 576px) {
+  .heroSec {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* .heroSecImage {
+    background: none;
+  }
+  .heroSecMain:before {
+    content: none;
+  }
+  .heroSecMain:after {
+    content: none;
+  }
+  .heroSecImage img {
+    margin-left: 0px;
+    margin-bottom: 0px;
+  } */
+  .heroSecHeader p {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  /* .heroSecImage {
+    background: none;
+  }
+  .heroSecMain:before {
+    content: none;
+  }
+  .heroSecMain:after {
+    content: none;
+  }
+  .heroSecImage img {
+    margin-left: 0px;
+    margin-bottom: 0px;
+  } */
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* .heroSecImage {
+    background: none;
+  }
+  .heroSecMain:before {
+    content: none;
+  }
+  .heroSecMain:after {
+    content: none;
+  }
+  .heroSecImage img {
+    margin-left: 0px;
+    margin-bottom: 0px;
+  } */
+}
+/* @media only screen and (min-width: 1201px) and (max-width: 1500px) {
+  .heroSecImage img {
+    margin-left: -224px;
+  }
+} */

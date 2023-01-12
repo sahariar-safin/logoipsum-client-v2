@@ -1,0 +1,31 @@
+.taxCalculator {
+  margin: 80px 0px;
+}
+
+.taxCalculator h2 {
+  margin-bottom: 40px;
+}
+
+.taxCalculator h2 span {
+  color: var(--mainColor);
+  font-weight: 700;
+}
+
+.taxCalculator p {
+  margin-bottom: 30px;
+}
+
+.taxCalculatorDiv a {
+  font-weight: 600;
+  color: var(--mainColor);
+}
+
+.taxCalculatorDiv a span {
+  font-size: 21px;
+}
+
+@media only screen and (max-width: 576px) {
+  .taxCalculatorImgDiv {
+    margin-top: 50px;
+  }
+}

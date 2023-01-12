@@ -1,0 +1,59 @@
+.truthfulTaxesForm {
+  text-align: center;
+}
+
+.truthfulTaxesForm h2:first-child {
+  color: var(--mainColor);
+}
+
+.truthfulTaxesForm h2 {
+  font-weight: 700;
+}
+
+.mainForm {
+  margin: 80px 0px;
+}
+
+.mainForm h3 {
+  text-align: center;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 50px;
+}
+
+.formInputs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+}
+
+.formInputs div {
+  margin-bottom: 40px;
+}
+
+.formInputs input,
+.formInputs textarea {
+  border: 0px;
+  border-bottom: 1px solid black;
+  width: 100%;
+  padding: 10px 10px;
+  margin-top: 20px;
+}
+
+.formInputs textarea {
+  margin-top: 20px;
+  resize: none;
+}
+
+.formInputs input:focus,
+.formInputs textarea:focus {
+  border: 1px solid var(--mainColor) !important;
+  outline: 0px;
+}
+
+@media only screen and (max-width: 576px) {
+  .formInputs {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px;
+  }
+}

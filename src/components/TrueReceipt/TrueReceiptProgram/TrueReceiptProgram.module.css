@@ -1,0 +1,137 @@
+.heroSec {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 30px;
+  margin: 80px 0px;
+}
+
+.heroSecMain {
+  background-color: #fcfcfc;
+}
+
+.heroSecHeader {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.heroSecHeader h2 {
+  color: var(--mainColor);
+}
+
+.heroSecHeader p {
+  width: 445px;
+}
+
+.heroSecHeader a {
+  color: var(--mainColor);
+  font-weight: 600;
+}
+
+/* .heroSecMain {
+  position: relative;
+  z-index: 10;
+}
+
+.heroSecMain::after {
+  content: "";
+  background: url("/images/true receipt program/b69a347cdbfd4c1eb90e1336b57c5bc0.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 954px;
+  height: 395px;
+  z-index: 1;
+  right: 0px;
+  top: 0px;
+}
+
+.heroSecImage img {
+  margin-left: -226px;
+  position: relative;
+  z-index: 200;
+  top: 87px;
+} */
+
+@media only screen and (max-width: 576px) {
+  .heroSec {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* .heroSecImage {
+    background: none;
+  }
+  .heroSecMain:before {
+    content: none;
+  }
+  .heroSecMain:after {
+    content: none;
+  }
+  .heroSecImage {
+    text-align: center;
+  }
+  .heroSecImage img {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    top: 0px;
+  } */
+  .heroSecHeader p {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  /* .heroSecImage {
+    background: none;
+  }
+  .heroSecMain:before {
+    content: none;
+  }
+  .heroSecMain:after {
+    content: none;
+  }
+  .heroSecImage img {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    top: 0px;
+  } */
+  .heroSecHeader p {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* .heroSecImage {
+    background: none;
+  }
+  .heroSecMain:before {
+    content: none;
+  }
+  .heroSecMain:after {
+    content: none;
+  }
+  .heroSecImage img {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    top: 0px;
+  } */
+  .heroSecHeader p {
+    width: 100%;
+  }
+}
+/* @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .heroSecImage img {
+    margin-left: -224px;
+  }
+  .heroSecMain::after {
+    width: 527px;
+  }
+  .heroSecImage img {
+    margin-left: -78px;
+  }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1500px) {
+  .heroSecImage img {
+    margin-left: -160px;
+  }
+  .heroSecMain::after {
+    width: 692px;
+  }
+} */

@@ -1,0 +1,153 @@
+.searchBtn {
+  border: 1px solid #dbd9d9;
+  border-radius: 60px !important;
+  padding: 6px 15px;
+  margin-left: 20px !important;
+}
+
+.navBarList {
+  margin-right: 0px;
+}
+
+.searchIcon {
+  color: #3c484e !important;
+  padding: 0px !important;
+}
+
+.navBarList li a {
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 24px !important;
+  color: #111827 !important;
+}
+
+.navBarList li a:hover {
+  color: #0369a1 !important;
+}
+
+.logInBtn,
+.signUpBtn {
+  width: 115px;
+  height: 56px;
+  border-radius: 60px;
+  padding: 11px 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  border: 1px solid #0369a1;
+}
+
+.logInBtn {
+  background: var(--mainColor);
+  color: #ffffff;
+  margin-right: 10px;
+  transition: 0.4s linear;
+}
+
+.logInBtn:hover {
+  border: 1px solid #0369a1;
+  color: #0369a1;
+  background: white;
+}
+
+.signUpBtn {
+  border: 1px solid #0369a1;
+  color: #0369a1;
+  transition: 0.4s linear;
+}
+
+.signUpBtn:hover {
+  background: #0369a1;
+  color: white;
+}
+
+
+.logButtons {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 1410px) {
+  .searchBtn {
+    margin-left: 0px !important;
+  }
+
+  .logInBtn,
+  .signUpBtn {
+    padding: 10px 20px;
+    width: 102px;
+    height: 42px;
+    text-align: center;
+  }
+
+  .logButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .searchBtn {
+    margin-left: 0px !important;
+    width: 200px;
+  }
+
+  .logInBtn,
+  .signUpBtn {
+    padding: 10px 20px;
+    width: 102px;
+    height: 42px;
+    text-align: center;
+  }
+
+  .logButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .searchBtn {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logButtons {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .searchBtn {
+    margin-left: 0px !important;
+    margin-bottom: 10px;
+  }
+
+  .logInBtn,
+  .signUpBtn {
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  .logInBtn,
+  .signUpBtn {
+    padding: 10px 20px;
+  }
+
+  .logInBtn {
+    margin-right: 0px !important;
+  }
+
+  .logButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

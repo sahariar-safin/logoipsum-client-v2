@@ -1,0 +1,48 @@
+.EveryDollar {
+    padding: 75px 0px;
+}
+
+.EveryDollar h2 {
+    margin-bottom: 30px;
+}
+
+.card {
+    max-width: 590px;
+    min-height: 205px;
+    border: 1px solid #D7EAF4;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    padding: 30px;
+}
+
+.card h4 {
+    font-family: "PF Square Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000D14;
+    margin: 0px;
+}
+
+.card p {
+    font-family: "PF Square Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #3C484E;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+    .EveryDollar {
+        padding: 40px 0px;
+    }
+
+
+    .card {
+        padding: 15px;
+        margin-top: 25px;
+    }
+}

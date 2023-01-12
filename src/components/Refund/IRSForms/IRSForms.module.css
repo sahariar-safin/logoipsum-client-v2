@@ -1,0 +1,58 @@
+.irsForms {
+  margin: 80px 0px;
+}
+
+.irsForms h2 {
+  text-align: center;
+  color: var(--mainColor);
+  font-weight: 600;
+}
+
+.irsForms h2 span {
+  color: var(--mainColor) !important;
+  font-weight: 600;
+}
+
+.iRSFormsInfo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 100px;
+  margin-top: 50px;
+}
+
+.iRSFormsInfoCards h3 {
+  color: black;
+  font-weight: 700;
+}
+
+.iRSFormsInfoCards p {
+  font-size: 16px;
+}
+
+.iRSFormsInfoCards div {
+  text-align: center;
+}
+
+.iRSFormsInfoCards a {
+  text-align: center;
+}
+
+.iRSFormsInfoCards a h6 {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 576px) {
+  .irsForms h2 {
+    font-size: 24px;
+  }
+  .iRSFormsInfo {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 1024px) {
+  .iRSFormsInfo {
+    grid-gap: 30px;
+  }
+}

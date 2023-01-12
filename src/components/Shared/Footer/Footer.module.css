@@ -1,0 +1,81 @@
+.footer {
+  padding: 75px 0px 0px;
+}
+
+.footer p {
+  font-family: "PF Square Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3c484e;
+  margin-top: 20px;
+}
+
+.footer h4 {
+  font-family: "PF Square Sans Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 125%;
+  color: #000d14;
+}
+
+.footerIcon {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.footerList {
+  margin-bottom: 12px;
+}
+
+.Icon {
+  font-size: 24px;
+  color: #0369a1;
+}
+
+.footerList a {
+  font-family: "PF Square Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: #3c484e;
+  transition: all linear 0.3s;
+  cursor: pointer;
+  margin: 0px;
+  text-decoration: none;
+}
+
+.footerList a:hover {
+  color: #0369a1 !important;
+}
+
+.footerBottom {
+  border-top: 1px solid #dcdcdc;
+  padding: 10px 0px;
+  margin-top: 20px;
+}
+
+.footerBottom p {
+  text-align: center;
+  font-family: "PF Square Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #8f9391;
+}
+
+@media only screen and (max-width: 576px) {
+  .footer {
+    padding: 0px 0px 0px;
+  }
+
+  .footer h4 {
+    margin-top: 20px;
+  }
+}
