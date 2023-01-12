@@ -3,6 +3,8 @@ import { useForm } from "react-hook-form";
 import BankInfo from "../components/ExistingClients/BankInfo";
 import ExistingClient from "../components/ExistingClients/ExistingClient";
 import Irs from "../components/ExistingClients/Irs";
+import Footer from "../components/Shared/Footer/Footer";
+import Navbar from "../components/Shared/Navbar/Navbar";
 import AuthGuard from "../ui-component/AuthGuard";
 
 const ExistingClients = () => {
@@ -20,6 +22,7 @@ const ExistingClients = () => {
   };
   return (
     <AuthGuard pageTitle="Existing Clients">
+      <Navbar/>
       {/* <ExistingClients /> */}
       {formNumber === 1 && (
         <ExistingClient
@@ -45,6 +48,7 @@ const ExistingClients = () => {
           handleRegistrationFormSubmit={handleRegistrationFormSubmit}
         />
       )}
+      <Footer/>
     </AuthGuard>
   );
 };
