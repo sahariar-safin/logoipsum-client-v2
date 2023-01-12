@@ -1,5 +1,5 @@
- 
 import React from "react";
+import image from "../../../assets/images/TaxPartner/account-intelligence-hero.jpg";
 import styles from "../TaxPartnerProgram.module.css";
 
 const TaxPartner = () => {
@@ -17,7 +17,7 @@ const TaxPartner = () => {
               className="img-fluid"
               width="1920"
               height="1080"
-              src="/images/TaxPartner/account-intelligence-hero.jpg"
+              src={image}
               alt=""
             />
           </div>

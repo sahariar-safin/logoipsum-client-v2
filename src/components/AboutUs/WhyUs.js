@@ -18,6 +18,7 @@ const WhyUs = () => {
                     height={100}
                     className="img-fluid"
                     src={item?.img}
+                    alt=""
                   />
                 </div>
               );

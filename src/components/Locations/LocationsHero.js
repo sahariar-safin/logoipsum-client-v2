@@ -1,5 +1,6 @@
- 
 import React from "react";
+import image from "../../assets/images/Locations/location.png";
+import image2 from "../../assets/images/Locations/mini-figure-traveler-with-red-pushpin-map-travel-concept.jpg";
 import styles from "./Locations.module.css";
 
 const LocationsHero = () => {
@@ -12,7 +13,7 @@ const LocationsHero = () => {
                <img
                 width="55"
                 height="75"
-                src="/images/Locations/location.png"
+                src={image}
                 className="img-fluid"
                 alt=""
               />
@@ -27,7 +28,7 @@ const LocationsHero = () => {
                <img
                 width="4896"
                 height="3264"
-                src="/images/Locations/mini-figure-traveler-with-red-pushpin-map-travel-concept.jpg"
+                src={image2}
                 className="img-fluid"
                 alt=""
               />

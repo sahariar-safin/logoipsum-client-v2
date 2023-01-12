@@ -24,6 +24,10 @@
   font-size: 21px;
 }
 
+.taxCalculatorImgDiv img {
+  width: 100%;
+}
+
 @media only screen and (max-width: 576px) {
   .taxCalculatorImgDiv {
     margin-top: 50px;

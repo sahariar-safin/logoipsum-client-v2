@@ -1,10 +1,27 @@
+import logo1 from "../assets/images/about/logo1.gif";
+import logo2 from "../assets/images/about/logo2.webp";
+import logo3 from "../assets/images/about/logo3.webp";
+import logo4 from "../assets/images/about/logo4.webp";
+import logo5 from "../assets/images/about/logo5.webp";
+import logo6 from "../assets/images/about/logo6.webp";
+import image6 from "../assets/images/bookmark-3-line.svg";
+import image1 from "../assets/images/image 399 (1).png";
+import image2 from "../assets/images/image 399.png";
+import image3 from "../assets/images/lock-2-line.svg";
+import image4 from "../assets/images/message-2-line.svg";
+import image5 from "../assets/images/money-dollar-circle-line.svg";
+import partnerImage3 from "../assets/images/TaxPartnerCard/bag.png";
+import partnerImage2 from "../assets/images/TaxPartnerCard/credit-card.png";
+import partnerImage1 from "../assets/images/TaxPartnerCard/idea.png";
+import partnerImage4 from "../assets/images/TaxPartnerCard/messenger.png";
+
 export const connectData = [
   {
     id: 1,
     title: "We’re here year-round",
     text: "Need to file, amend your return or get answers to tax questions? Meet with a local Tax Pro today.",
     btn: "Reserve your post",
-    img: "/images/image 399 (1).png",
+    img: image1,
     link: "/",
   },
   {
@@ -12,7 +29,7 @@ export const connectData = [
     title: "Tax problems? No problem!",
     text: "Get back in good standing with the IRS and get on with life. Have an expert Tax Pro deal with the IRS for you. Get a free consult!",
     btn: "Start resolving",
-    img: "/images/image 399.png",
+    img: image2,
     link: "/",
   },
 ];
@@ -22,25 +39,25 @@ export const businessData = [
     id: 1,
     title: "Safe and Secure",
     text: "Our custom online Tax Portal is safe and secure. Your personal data is encrypted the second you click send.",
-    img: "/images/lock-2-line.svg",
+    img: image3,
   },
   {
     id: 2,
     title: "One stop services",
     text: "We can handle your personal and business filings. Our Tax Partners will make sure you get everything done right.",
-    img: "/images/message-2-line.svg",
+    img: image4,
   },
   {
     id: 3,
     title: "Affordable pricing",
     text: "Our prices are built for your needs. Need a payment plan? No problem, we got you covered with options.",
-    img: "/images/money-dollar-circle-line.svg",
+    img: image5,
   },
   {
     id: 4,
     title: "Certified in 50 states",
     text: "We are certified across the country. Can't find a Tax Partner near you? No worries, just give us a call. We can help.",
-    img: "/images/bookmark-3-line.svg",
+    img: image6,
   },
 ];
 
@@ -74,7 +91,6 @@ export const footerData = [
     text: [
       { id: 1, item: "Tax Services", link: "/tax-services" },
       { id: 2, item: "Refund Options", link: "/refund-options" },
-      // { id: 3, item: "Tax Partner Supplies", link: "/tax-partner-supplies" },
       { id: 3, item: "Refund Status", link: "/refund-status" },
       { id: 4, item: "IRS Forms", link: "/irs-forms" },
       { id: 5, item: "True Receipt Program", link: "/locker-receipt-program" },
@@ -118,15 +134,6 @@ export const footerData = [
       },
     ],
   },
-  // {
-  //   id: 4,
-  //   title: "Careers",
-  //   text: [
-  //     { id: 1, item: "Work at JH" },
-  //     { id: 2, item: "Own a Franchise" },
-  //     { id: 3, item: "Become a Tax Pro" },
-  //   ],
-  // },
 ];
 
 export const taxPartnersCard = [
@@ -134,7 +141,7 @@ export const taxPartnersCard = [
     id: 1,
     title: "FAQ",
     text: "You have questions? We have answers!",
-    img: "/images/TaxPartnerCard/idea.png",
+    img: partnerImage1,
     read: "Read More",
     link: "/",
   },
@@ -142,7 +149,7 @@ export const taxPartnersCard = [
     id: 2,
     title: "Payment Plans",
     text: "Whether you want to pay in full or pay with installments, we got you!",
-    img: "/images/TaxPartnerCard/credit-card.png",
+    img: partnerImage2,
     read: "Learn More",
     link: "/",
   },
@@ -150,7 +157,7 @@ export const taxPartnersCard = [
     id: 3,
     title: "Supplies",
     text: "Need some branded office supplies and swag?",
-    img: "/images/TaxPartnerCard/bag.png",
+    img: partnerImage3,
     read: "Shop Now",
     link: "/",
   },
@@ -158,7 +165,7 @@ export const taxPartnersCard = [
     id: 4,
     title: "Live Sessions",
     text: "Join in  live sessions and stay connected through out your tax journey.",
-    img: "/images/TaxPartnerCard/messenger.png",
+    img: partnerImage4,
     read: "Watch Now",
     link: "/",
   },
@@ -167,28 +174,26 @@ export const taxPartnersCard = [
 export const aboutUsLogo = [
   {
     id: 1,
-    img: "/images/about/logo1.gif",
+    img: logo1,
   },
   {
     id: 2,
-    img: "/images/about/logo2.webp",
+    img: logo2,
   },
   {
     id: 3,
-    img: "/images/about/logo3.webp",
+    img: logo3,
   },
   {
     id: 4,
-    img: "/images/about/logo4.webp",
+    img: logo4,
   },
   {
     id: 5,
-    img: "/images/about/logo5.webp",
+    img: logo5,
   },
   {
     id: 6,
-    img: "/images/about/logo6.webp",
+    img: logo6,
   },
 ];
-
-

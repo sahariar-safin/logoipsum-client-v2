@@ -1,7 +1,7 @@
- 
 import React from "react";
 import { GrDocumentDownload } from "react-icons/gr";
 import { Link } from "react-router-dom";
+import { default as image1, default as image2, default as image3, default as image4 } from "../../../assets/images/pdf/84b64599ffd4d19e6d5920d5a29fdcd4.png";
 import styles from "./IRSForms.module.css";
 
 const IRSForms = () => {
@@ -10,7 +10,7 @@ const IRSForms = () => {
       id: 1,
       header: "IRS Tax Transcript",
       text: "Download this federal form to request an official IRS Tax Transcript for any year from the IRS.  * Please note that this transcript does not include your state tax return, this is only the FEDERAL. ",
-      image: "/images/pdf/84b64599ffd4d19e6d5920d5a29fdcd4.png",
+      image: image1,
       subText: "4506T REQUEST FOR TAX TRANSCRIPT FORM",
       link: "https://www.truthfultaxes.com/_files/ugd/821f13_e84ea4384fd341839d9c60dbea9e5ba4.pdf",
     },
@@ -18,7 +18,7 @@ const IRSForms = () => {
       id: 2,
       header: "Installment agreement",
       text: "Download this federal form to request an installment agreement for filers who owe the IRS money and do not want to pay one lump sum while still be in compliance.  ",
-      image: "/images/pdf/84b64599ffd4d19e6d5920d5a29fdcd4.png",
+      image: image2,
       subText: "9465 IRS INSTALLMENT AGREEMENT FORM",
       link: "https://www.truthfultaxes.com/_files/ugd/821f13_8e0fd449b3634ccdaee01dcf61873da1.pdf",
     },
@@ -26,7 +26,7 @@ const IRSForms = () => {
       id: 3,
       header: "Extension to file",
       text: "Download this federal form to request for an extension to file your taxes for all late filers.  ",
-      image: "/images/pdf/84b64599ffd4d19e6d5920d5a29fdcd4.png",
+      image: image3,
       subText: "4868 IRS EXTENSION FORM",
       link: "https://www.truthfultaxes.com/_files/ugd/821f13_c7343117aa1c470a812a0933b05b8c60.pdf",
     },
@@ -34,7 +34,7 @@ const IRSForms = () => {
       id: 4,
       header: "Separate your tax responsibilities",
       text: "Download this federal form to request to separate your tax responsibilities from your spouse.  * Please note that this does not guarantee that your request will be honored by the IRS.",
-      image: "/images/pdf/84b64599ffd4d19e6d5920d5a29fdcd4.png",
+      image: image4,
       subText: "8379 INJURED SPOUSE ALLOCATION FORM",
       link: "https://www.truthfultaxes.com/_files/ugd/821f13_41da3e904f8c4c298243f3f3534f83a1.pdf",
     },
