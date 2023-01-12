@@ -1,6 +1,7 @@
  
 import React from "react";
 import { Link } from "react-router-dom";
+import img from "../../../assets/images/true receipt program/b69a347cdbfd4c1eb90e1336b57c5bc0.png";
 import styles from "./TrueReceiptProgram.module.css";
 
 const TrueReceiptProgram = () => {
@@ -25,7 +26,7 @@ const TrueReceiptProgram = () => {
             </div>
             <div className={styles.heroSecImage}>
                <img
-                src="/images/true receipt program/b69a347cdbfd4c1eb90e1336b57c5bc0.png"
+                src={img}
                 alt=""
                 width="717"
                 height="395"

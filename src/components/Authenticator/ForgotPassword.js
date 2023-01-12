@@ -1,7 +1,8 @@
- 
 import React from "react";
 import { Link } from "react-router-dom";
+import closeImg from "../../assets/images/Authenticator/close.png";
 import styles from "./Authenticator.module.css";
+
 const ForgotPassword = () => {
   return (
     <div className={styles.Authenticator}>
@@ -13,7 +14,7 @@ const ForgotPassword = () => {
                  <img
                   width="20"
                   height="20"
-                  src="/images/Authenticator/close.png"
+                  src={closeImg}
                 />
               </Link>
             </div>

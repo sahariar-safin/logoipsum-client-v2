@@ -1,5 +1,6 @@
  
 import React from "react";
+import img from "../../assets/images/about/Award.webp";
 import styles from "./About.module.css";
 
 const Award = () => {
@@ -31,7 +32,7 @@ const Award = () => {
                <img
                 width="395"
                 height="258"
-                src="/images/about/Award.webp"
+                src={img}
                 className="img-fluid"
               />
             </div>
