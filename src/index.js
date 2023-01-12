@@ -8,8 +8,8 @@ import App from "./App";
 import "./assets/styles/globals.css";
 import { AuthProvider } from "./contexts/AuthContext";
 import reportWebVitals from "./reportWebVitals";
-// axios.defaults.baseURL = 'https://logoipsum-server-production.up.railway.app/api/v1';
-axios.defaults.baseURL = 'http://localhost:5000/api/v1';
+axios.defaults.baseURL = 'https://logoipsum-server-production-d60b.up.railway.app/api/v1';
+// axios.defaults.baseURL = 'http://localhost:5000/api/v1';
 axios.defaults.headers.common['Authorization'] = `Bearer ${ localStorage.getItem("token") }`;
 axios.interceptors.response.use(function (response) {
   return response;
