@@ -164,3 +164,50 @@
   margin: 0 auto;
   margin-top: 100px;
 }
+
+
+
+@media only screen and (max-width: 576px) {
+  .TaxPartner {
+    margin-top: 30px;
+  }
+
+  .TaxPartner h2 {
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+    font-weight: 700;
+  }
+
+  .TaxPartner button {
+    margin: 0px 0px 30px;
+  }
+
+  .PartnersCard .Card {
+    margin-bottom: 30px;
+  }
+
+  .review {
+    position: relative;
+    margin-bottom: 140px;
+  }
+
+  .review::after {
+    transform: none;
+    top: 100%;
+    left: 0%;
+    width: 200px;
+    height: 200px;
+  }
+
+  .partnersText p {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+
+  .partnerShip h2 {
+    font-weight: 500;
+    font-size: 24px !important;
+    margin: 10px 0px;
+  }
+}
