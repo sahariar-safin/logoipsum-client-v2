@@ -33,6 +33,7 @@ const LocationsHero = () => {
                 alt=""
               />
             </div>
+           
           </div>
         </div>
       </div>

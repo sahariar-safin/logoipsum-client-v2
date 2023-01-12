@@ -1,3 +1,7 @@
+import partnerImage3 from "../assets/images/TaxPartnerCard/bag.png";
+import partnerImage2 from "../assets/images/TaxPartnerCard/credit-card.png";
+import partnerImage1 from "../assets/images/TaxPartnerCard/idea.png";
+import partnerImage4 from "../assets/images/TaxPartnerCard/messenger.png";
 import logo1 from "../assets/images/about/logo1.gif";
 import logo2 from "../assets/images/about/logo2.webp";
 import logo3 from "../assets/images/about/logo3.webp";
@@ -10,10 +14,78 @@ import image2 from "../assets/images/image 399.png";
 import image3 from "../assets/images/lock-2-line.svg";
 import image4 from "../assets/images/message-2-line.svg";
 import image5 from "../assets/images/money-dollar-circle-line.svg";
-import partnerImage3 from "../assets/images/TaxPartnerCard/bag.png";
-import partnerImage2 from "../assets/images/TaxPartnerCard/credit-card.png";
-import partnerImage1 from "../assets/images/TaxPartnerCard/idea.png";
-import partnerImage4 from "../assets/images/TaxPartnerCard/messenger.png";
+
+import locationImage1 from "../assets/images/Locations/man.jpeg";
+import locationImage3 from "../assets/images/Locations/man1.png";
+import locationImage2 from "../assets/images/Locations/man2.jpg";
+
+
+
+
+export const locationData = [
+  {
+    id: 1,
+    title: "TRUTHFUL TAXES Cynthia Hernandez",
+    subtitle: "Brooklyn New York 11249",
+    text: "Our custom online Tax Portal is safe and secure. Your personal data is encrypted the second you click send.",
+    img: locationImage2,
+  },
+  {
+    id: 2,
+    title: "TRUTHFUL TAXES Cynthia Hernandez",
+    subtitle: "Brooklyn New York 11249",
+    text: "We can handle your personal and business filings. Our Tax Partners will make sure you get everything done right.",
+    img: locationImage3,
+  },
+  {
+    id: 3,
+    title: "TRUTHFUL TAXES Cynthia Hernandez",
+    subtitle: "Brooklyn New York 11249",
+    text: "Our prices are built for your needs. Need a payment plan? No problem, we got you covered with options.",
+    img: locationImage1,
+  },
+  {
+    id: 4,
+    title: "TRUTHFUL TAXES Cynthia Hernandez",
+    subtitle: "Brooklyn New York 11249",
+    text: "We are certified across the country. Can't find a Tax Partner near you? No worries, just give us a call. We can help.",
+    img: locationImage2,
+  },
+
+  {
+    id: 5,
+    title: "TRUTHFUL TAXES Cynthia Hernandez",
+    subtitle: "Brooklyn New York 11249",
+    text: "Our prices are built for your needs. Need a payment plan? No problem, we got you covered with options.",
+    img: locationImage3,
+  },
+  {
+    id: 6,
+    title: "Certified in 50 states",
+    subtitle: "Brooklyn New York 11249",
+    text: "We are certified across the country. Can't find a Tax Partner near you? No worries, just give us a call. We can help.",
+    img: locationImage1,
+  },
+
+  {
+    id: 7,
+    title: "TRUTHFUL TAXES Cynthia Hernandez",
+    subtitle: "Brooklyn New York 11249",
+    text: "Our prices are built for your needs. Need a payment plan? No problem, we got you covered with options.",
+    img: locationImage2,
+  },
+  {
+    id: 8,
+    title: "Certified in 50 states",
+    subtitle: "Brooklyn New York 11249",
+    text: "We are certified across the country. Can't find a Tax Partner near you? No worries, just give us a call. We can help.",
+    img: locationImage3,
+  },
+];
+
+
+
+
 
 export const connectData = [
   {

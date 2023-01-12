@@ -31,3 +31,79 @@
     width: 100%;
     border-radius: 10px;
 }
+
+
+.LocationForm {
+    margin-top: 30px;
+}
+
+.LocationForm .locationInput {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #0369a1;
+    padding: 5px;
+}
+
+.locationInput input {
+    width: 100%;
+    border: 0px;
+}
+
+.locationInput input:focus {
+    outline: 0px;
+}
+
+
+.LocationCard {
+    height: 400px;
+    overflow-y: scroll;
+    padding: 20px;
+}
+
+.card {
+    padding: 15px;
+    margin: 10px 0px;
+    border: 1px solid rgba(51, 51, 51, 0.2);
+}
+
+.card .cardHeader {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.card>p {
+    font-size: 18px;
+    color: rgb(65, 65, 65);
+    font-weight: 600;
+    max-width: 220px;
+    margin-top: 10px;
+}
+
+.cardHeader h3 {
+    font-family: "PF Square Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 125%;
+    color: #000000;
+}
+
+
+.cardHeader .headerIcon {
+    font-size: 24px;
+}
+
+.cardHeader a {
+    color: #0369a1 !important;
+    width: 220px;
+    font-size: 16px;
+}
+
+.cardHeader p {
+    color: #0369a1 !important;
+    width: 220px;
+    font-size: 16px;
+}
