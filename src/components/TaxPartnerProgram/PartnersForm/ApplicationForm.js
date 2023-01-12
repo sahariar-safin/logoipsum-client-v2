@@ -1,20 +1,58 @@
-import React from "react";
+import React, { useState } from "react";
+import { useForm } from "react-hook-form";
+import { useNavigate } from "react-router-dom";
+
 import styles from "../TaxPartnerProgram.module.css";
+import { taxpartner } from './../../../apis/taxpartner';
 const ApplicationForm = () => {
+  const {
+    register,
+    handleSubmit,
+    watch,
+    formState: { errors },
+  } = useForm();
+
+  const [error, setError] = useState(null);
+
+  const router = useNavigate();
+
+  const handleOnSubmit = async (body) => {
+    try {
+      const res = await taxpartner({
+        ...body,
+      });
+      router("/thank-you");
+      console.log(res);
+    } catch (error) {
+      setError(error.message);
+    }
+  };
+
   return (
     <div className={styles.ApplicationForm}>
-      <form className={styles.Form}>
+      <form className={styles.Form} onSubmit={handleSubmit(handleOnSubmit)}>
         <div className="row">
           <div className="col">
-            <input type="text" placeholder="First name" required={true} />
+            <input
+              {...register("first_name", { required: true })}
+              type="text"
+              placeholder="First name"
+              required={true}
+            />
           </div>
           <div className="col">
-            <input type="text" placeholder="Last name" required={true} />
+            <input
+              {...register("last_name", { required: true })}
+              type="text"
+              placeholder="Last name"
+              required={true}
+            />
           </div>
         </div>
         <div className="row">
           <div className="col">
             <input
+              {...register("email", { required: true })}
               type="email"
               placeholder="Enter your Email Address"
               required={true}
@@ -22,6 +60,7 @@ const ApplicationForm = () => {
           </div>
           <div className="col">
             <input
+              {...register("phone_number", { required: true })}
               type="number"
               placeholder="Phone number (with country code)"
               required={true}
@@ -38,13 +77,16 @@ const ApplicationForm = () => {
 
         <div className="row">
           <div className="col">
-            <input type="text" placeholder="Date" required={true} />
+            <input
+              type="date"
+              {...register("date_of_birth", { required: false })}
+            />
           </div>
           <div className="col">
             <input
               type="text"
               placeholder="Referred By (name)"
-              required={true}
+              {...register("referred_name", { required: false })}
             />
           </div>
         </div>
@@ -57,6 +99,7 @@ const ApplicationForm = () => {
             <select
               className="custom-select mr-sm-2"
               id="inlineFormCustomSelect"
+              {...register("Session_date_information", { required: true })}
             >
               <option selected>Choose A Session</option>
               <option value="1">Session 6</option>
@@ -72,6 +115,7 @@ const ApplicationForm = () => {
             <select
               className="custom-select mr-sm-2"
               id="inlineFormCustomSelect"
+              {...register("Referred_By_A_Current_Tax", { required: true })}
             >
               <option selected></option>
               <option value="1">Yes</option>
@@ -79,7 +123,9 @@ const ApplicationForm = () => {
             </select>
           </div>
         </div>
-        <button className="button">Submit</button>
+        <button className="button" type="submit">
+          Submit
+        </button>
       </form>
     </div>
   );

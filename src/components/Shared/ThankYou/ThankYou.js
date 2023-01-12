@@ -1,12 +1,12 @@
- 
 import React from "react";
+import image from "../../../assets/images/thank.png";
 import styles from "./ThankYou.module.css";
 
 const ThankYou = () => {
   return (
     <div className={styles.thankYou}>
        <img
-        src="/images/thank.png"
+        src={image}
         alt=""
         width="500"
         height="500"

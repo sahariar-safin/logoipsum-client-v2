@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import ClientRegistry from "../components/ClientRegistry/ClientRegistry";
-
 import BankDetails from "./../components/ClientRegistry/BankDetails";
 import TaxQuestions from "./../components/ClientRegistry/TaxQuestions";
+import Footer from './../components/Shared/Footer/Footer';
+import Navbar from './../components/Shared/Navbar/Navbar';
 import AuthGuard from './../ui-component/AuthGuard';
 
 const Clientregistry = () => {
@@ -21,6 +22,7 @@ const Clientregistry = () => {
   };
   return (
     <AuthGuard pageTitle="Registration">
+      <Navbar/>
       {formNumber === 1 && (
         <ClientRegistry
           setFormNumber={setFormNumber}
@@ -45,6 +47,7 @@ const Clientregistry = () => {
           handleRegistrationFormSubmit={handleRegistrationFormSubmit}
         />
       )}
+      <Footer/>
     </AuthGuard>
   );
 };
