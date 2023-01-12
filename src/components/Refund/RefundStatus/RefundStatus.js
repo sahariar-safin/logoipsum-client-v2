@@ -1,6 +1,6 @@
- 
 import React from "react";
 import { Link } from "react-router-dom";
+import image from "../../../assets/images/refund status/refund.jpg";
 import styles from "./RefundStatus.module.css";
 
 const RefundStatus = () => {
@@ -51,7 +51,7 @@ const RefundStatus = () => {
           </div>
           <div className={styles.refundStatusImage}>
              <img
-              src="/images/refund status/refund.jpg"
+              src={image}
               alt=""
               width="1500"
                           height="750"

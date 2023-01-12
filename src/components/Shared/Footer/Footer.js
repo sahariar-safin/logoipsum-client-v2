@@ -3,6 +3,7 @@ import React from "react";
 import { BsFacebook, BsTwitter } from "react-icons/bs";
 import { ImYoutube } from "react-icons/im";
 import { Link } from "react-router-dom";
+import logo from "../../../assets/images/Logo.png";
 import { footerData } from "../../../data/data";
 import styles from "./Footer.module.css";
 import FooterBottom from "./FooterBottom";
@@ -17,7 +18,7 @@ const Footer = () => {
                <img
                 width="167"
                 height="41"
-                src="/images/Logo.png"
+                src={logo}
                 className="img-fluid"
                 alt=""
               />

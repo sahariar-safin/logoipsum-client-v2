@@ -18,6 +18,7 @@ const TaxPartnersCard = () => {
                     width="38"
                     height="30"
                     src={item?.img}
+                    alt=""
                   />
                   <h3>{item?.title}</h3>
                   <p>{item?.text}</p>

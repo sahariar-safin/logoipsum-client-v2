@@ -1,7 +1,7 @@
- 
 import React from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-router-dom";
+import image from "../../assets/images/tax witholding/calculate-withholding-tax.png";
 import styles from "./TaxCalculator.module.css";
 
 const TaxCalculator = () => {
@@ -30,7 +30,7 @@ const TaxCalculator = () => {
           <div className="col-lg-6 col-md-6 col-sm-12">
             <div className={styles.taxCalculatorImgDiv}>
                <img
-                src="/images/tax witholding/calculate-withholding-tax.png"
+                src={image}
                 alt=""
                 width="852"
                 height="568"

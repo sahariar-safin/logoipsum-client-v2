@@ -1,5 +1,5 @@
- 
 import React from "react";
+import image from "../../../assets/images/TaxPartner/main-removebg-preview.png";
 import styles from "../TaxPartnerProgram.module.css";
 import ApplicationForm from "./ApplicationForm";
 import PartnerCalendar from "./PartnerCalendar";
@@ -20,7 +20,7 @@ const PartnersForm = () => {
             </div>
             <div className={styles.partnersImg}>
                <img
-                src="/images/TaxPartner/main-removebg-preview.png"
+                src={image}
                 width="258"
                 height="268"
                 className="img-fluid"

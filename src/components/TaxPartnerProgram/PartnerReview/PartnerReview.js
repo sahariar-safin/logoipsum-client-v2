@@ -1,6 +1,6 @@
- 
 import React from "react";
 import { Link } from "react-router-dom";
+import image from "../../../assets/images/pdf/pdf.webp";
 import styles from "../TaxPartnerProgram.module.css";
 
 const PartnerReview = () => {
@@ -18,7 +18,7 @@ const PartnerReview = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                 <img src="/images/pdf/pdf.webp" height="60" width="60" />
+                 <img src={image} height="60" width="60" alt="" />
               </Link>
             </div>
           </div>

@@ -1,5 +1,5 @@
- 
 import React from "react";
+import image from "../../../assets/images/truthfultax.jpg";
 import styles from "./TruthfulTaxesHero.module.css";
 
 const TruthfulTaxesHero = () => {
@@ -18,7 +18,7 @@ const TruthfulTaxesHero = () => {
           <h5>SORRY ENTRY IS CLOSED, CHECK BACK LATER.</h5>
         </div>
         <div>
-           <img src="/images/truthfultax.jpg" alt="" width="4000" height="2000" className="img-fluid" />
+           <img src={image} alt="" width="4000" height="2000" className="img-fluid" />
         </div>
       </div>
     </div>

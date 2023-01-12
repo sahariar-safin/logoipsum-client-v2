@@ -1,5 +1,5 @@
- 
 import React from "react";
+import image from "../../../assets/images/11062b_af6bcd5887df450d8cfa4d04286ac78c_mv2.png";
 import styles from "./TaxServiceHeroSec.module.css";
 
 const TaxServiceHeroSec = () => {
@@ -17,7 +17,7 @@ const TaxServiceHeroSec = () => {
           </div>
           <div className={styles.heroSecImage}>
              <img
-              src="/images/11062b_af6bcd5887df450d8cfa4d04286ac78c_mv2.png"
+              src={image}
               alt=""
               width="804"
               height="379"

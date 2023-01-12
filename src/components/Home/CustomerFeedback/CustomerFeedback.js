@@ -1,6 +1,6 @@
- 
 import React from "react";
 import Slider from "react-slick";
+import { default as image1, default as image2, default as image3 } from "../../../assets/images/Image (2).png";
 import styles from "./CustomerFeedback.module.css";
 
 const CustomerFeedback = () => {
@@ -11,7 +11,7 @@ const CustomerFeedback = () => {
       text: "Overall I had an excellent experience filing my taxes last minute. As a new client, I highly recommend to prepare your taxes.",
       name: "Shana Davis ",
       designation: "Straus and Giroux",
-      image: "/images/Image (2).png",
+      image: image1,
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ const CustomerFeedback = () => {
       text: "Jonathan's dedication to his clients is amazing even after tax season. I'm truly grateful for his financial advice and guidance.",
       name: "Daniel Kahneman",
       designation: "Straus and Giroux",
-      image: "/images/Image (2).png",
+      image: image2,
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ const CustomerFeedback = () => {
       text: "This has honestly been the best tax service I have ever experienced. I filed my taxes right from my home and the entire time I had a real person. ",
       name: "Daniel Kahneman",
       designation: "Straus and Giroux",
-      image: "/images/Image (2).png",
+      image: image3,
     },
   ];
   const settings = {

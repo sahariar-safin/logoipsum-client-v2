@@ -1,6 +1,6 @@
- 
 import React from "react";
 import { Link } from "react-router-dom";
+import image from "../../../assets/images/image 114.png";
 import styles from "./GetAhead.module.css";
 
 const GetAhead = () => {
@@ -13,7 +13,7 @@ const GetAhead = () => {
                <img
                 width="590"
                 height="480"
-                src="/images/image 114.png"
+                src={image}
                 className="img-fluid"
                 alt=""
               />

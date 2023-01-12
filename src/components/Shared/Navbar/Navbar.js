@@ -1,6 +1,6 @@
- 
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../../../assets/images/Logo.png";
 import useAuth from "../../../hooks/useAuth";
 import styles from "./Navbar.module.css";
 
@@ -12,7 +12,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-             <img width="130" height="41" src="/images/Logo.png" alt="logo" />
+             <img width="130" height="41" src={logo} alt="logo" />
           </Link>
 
           <button
