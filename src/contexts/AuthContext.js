@@ -1,6 +1,6 @@
 import axios from 'axios';
-import { createContext, useEffect, useReducer, useState } from 'react';
-import { getMe, SignInApi, SignUpApi, socialAuthApi } from '../apis/auth';
+import { createContext, useEffect, useState } from 'react';
+import { SignInApi, SignUpApi, getMe, socialAuthApi } from '../apis/auth';
 
 
 // set session
