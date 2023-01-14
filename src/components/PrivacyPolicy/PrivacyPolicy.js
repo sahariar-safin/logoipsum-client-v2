@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import styles from "./PrivacyPolicy.module.css";
 
 const PrivacyPolicy = () => {
@@ -29,12 +28,12 @@ const PrivacyPolicy = () => {
               {`TRUTHFUL TAXES is an IRS Authorized E-File Provider.  Validate our company on the IRS website by clicking on the "Authorized E-File Provider" link below.`}
             </p>
           </div>
-          <Link
+          <a target="_blank"
             href="https://www.irs.gov/efile-index-taxpayer-search?zip=07024&state=All&page=6"
-            className="button"
+            className="button" rel="noreferrer"
           >
             IRS Approved E-File Provider
-          </Link>
+          </a>
         </div>
 
         <div className={styles.clientSecurity}>

@@ -1,6 +1,5 @@
  
 import React from "react";
-import { Link } from "react-router-dom";
 import img from "../../../assets/images/true receipt program/b69a347cdbfd4c1eb90e1336b57c5bc0.png";
 import styles from "./TrueReceiptProgram.module.css";
 
@@ -20,9 +19,9 @@ const TrueReceiptProgram = () => {
                 more of you hard earned money and keeping you out of trouble
                 with the IRS.
               </p>
-              <Link href="https://www.truereceipt.org/">
+              <a href="https://www.truereceipt.org/" target="_blank" rel="noreferrer">
                 Click Here To Sign Up Today
-              </Link>
+              </a>
             </div>
             <div className={styles.heroSecImage}>
                <img

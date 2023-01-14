@@ -1,6 +1,5 @@
 import React from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
-import { Link } from "react-router-dom";
 import image from "../../assets/images/tax witholding/calculate-withholding-tax.png";
 import styles from "./TaxCalculator.module.css";
 
@@ -19,12 +18,12 @@ const TaxCalculator = () => {
                 Try the IRS Free Tax Withholding Calculator To Know How Much
                 Your Exemptions Should Be On Your Paycheck.
               </p>
-              <Link href="https://apps.irs.gov/app/tax-withholding-estimator">
+              <a href="https://apps.irs.gov/app/tax-withholding-estimator" target="_blank" rel="noreferrer">
                 Calculate Now{" "}
                 <span>
                   <MdKeyboardArrowRight />
                 </span>
-              </Link>
+              </a>
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12">

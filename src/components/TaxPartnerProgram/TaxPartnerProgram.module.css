@@ -14,6 +14,11 @@
   font-weight: 700;
 }
 
+
+.TaxPartner .taxPartnerBtn {
+  margin-top: 30px;
+}
+
 .Card h3 {
   margin: 20px 0px 10px;
 }

@@ -1,6 +1,5 @@
  
 import React from "react";
-import { Link } from "react-router-dom";
 import img from "../../../assets/images/true receipt program/mobile-phone.png";
 import img1 from "../../../assets/images/true receipt program/padlock.png";
 import img2 from "../../../assets/images/true receipt program/transparency.png";
@@ -43,7 +42,7 @@ const TrueReceiptCard = () => {
             <div>
               <h3>{item.header}</h3>
               <p>{item.text}</p>
-              <Link href={item.btnLink}>Click Here To Sign Up Today</Link>
+              <a href={item.btnLink} target="_blank" rel="noreferrer">Click Here To Sign Up Today</a>
             </div>
           </div>
         ))}

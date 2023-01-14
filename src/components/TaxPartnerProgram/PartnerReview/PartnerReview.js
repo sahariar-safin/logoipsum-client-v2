@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import file from "../../../assets/file/TRUTHFUL TAXES Tax Partner Brochure 2021.pdf";
 import image from "../../../assets/images/pdf/pdf.webp";
 import styles from "../TaxPartnerProgram.module.css";
 
@@ -13,13 +13,13 @@ const PartnerReview = () => {
               <h4>
                 WANT MORE INFORMATION? <br /> DOWNLOAD OUR BROCHURE
               </h4>
-              <Link
-                href="https://7ba09562-c76e-4cba-9a30-eb64491948d7.filesusr.com/ugd/b41de8_533910f2167b4dcdb689e08116df10e4.pdf"
-                rel="noreferrer"
-                target="_blank"
+              <a
+                 href={file}
+                 rel="noreferrer"
+                 target="_blank"
               >
                  <img src={image} height="60" width="60" alt="" />
-              </Link>
+              </a>
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12">

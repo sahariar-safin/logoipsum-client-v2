@@ -1,6 +1,5 @@
  
 import React from "react";
-import { Link } from "react-router-dom";
 import { connectData } from "../../../data/data";
 import styles from "./Connect.module.css";
 
@@ -24,7 +23,7 @@ const Connect = () => {
                   />
                   <h4>{item?.title}</h4>
                   <p>{item?.text}</p>
-                  <Link href="#"><button className="button">{item?.btn}</button></Link>
+                  {/* <Link href="#"><button className="button">{item?.btn}</button></Link> */}
                 </div>
               </div>
             );

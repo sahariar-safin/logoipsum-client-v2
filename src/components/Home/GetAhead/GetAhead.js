@@ -27,7 +27,7 @@ const GetAhead = () => {
                 Tax Day will likely look different for many of us, which is why
                 smart tax planning and thinking ahead could really pay off.
               </p>
-              <Link href="#"><button className="button">Get tax tips</button></Link>
+              <Link to="/contact-us"><button className="button">Get tax tips</button></Link>
             </div>
           </div>
         </div>
