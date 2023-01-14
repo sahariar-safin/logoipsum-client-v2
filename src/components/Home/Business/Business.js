@@ -33,7 +33,7 @@ const Business = () => {
               </div>
             );
           })}
-          <Link href="#"><button className="button">Reserve your post</button></Link>
+          <Link to="/truthful-taxes"><button className="button">Reserve your post</button></Link>
         </div>
       </div>
     </div>

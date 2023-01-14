@@ -45,7 +45,7 @@ const TaxServiceCards = () => {
              <img src={item.images} alt="" width="60" height="60" />
             <h4>{item.header}</h4>
             <p>{item.text}</p>
-            <Link href={item.btnLink} className="button">
+            <Link to={item.btnLink} className="button">
               Start Now
             </Link>
           </div>

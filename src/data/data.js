@@ -130,8 +130,8 @@ export const footerData = [
       { id: 4, item: "Testimonials", link: "/testimonials" },
       {
         id: 5,
-        item: "We are Truthful Taxes",
-        link: "/tax-partner-class-real-time",
+        item: "We Are Taxes",
+        link: "/truthful-taxes",
       },
     ],
   },

@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import styles from "./RefundOptions.module.css";
 
 const RefundOptions = () => {
@@ -47,7 +46,7 @@ const RefundOptions = () => {
                     *Most Refunds are issued with 10 business days Results May
                     Vary. Not all applicant will be accepted.{" "}
                   </p>
-                  <Link href="https://www.americanexpress.com/serve/?SOLID=SEARCH&extlink=us-serve-ps-google-brand_brand_serve&mkwid=sKVmJdqr9|dc&pcrid=56504253034&pmt=e&pkw=american%20express%20serve&gclid=CM293u77nMUCFfNZ7Aodv3UAJg">{`Learn More >`}</Link>
+                  <a href="https://www.americanexpress.com/serve/?SOLID=SEARCH&extlink=us-serve-ps-google-brand_brand_serve&mkwid=sKVmJdqr9|dc&pcrid=56504253034&pmt=e&pkw=american%20express%20serve&gclid=CM293u77nMUCFfNZ7Aodv3UAJg" target="_blank" rel="noreferrer">{`Learn More >`}</a>
                 </div>
               </div>
               <div className={styles.refundOptionSubInfo}>
@@ -62,7 +61,7 @@ const RefundOptions = () => {
                   Your entire refund will be loaded to the Debit Card once your
                   refund is scheduled to be direct deposited from the IRS.
                 </p>
-                <Link href="https://www.greendot.com/">{`Learn More >`}</Link>
+                <a href="https://www.greendot.com/" target="_blank" rel="noreferrer">{`Learn More >`}</a>
               </div>
             </div>
           </div>

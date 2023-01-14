@@ -22,9 +22,9 @@ const TaxPartnersCard = () => {
                   />
                   <h3>{item?.title}</h3>
                   <p>{item?.text}</p>
-                  <Link href={item?.link} rel="noreferrer">
+                  {/* <Link href={item?.link} rel="noreferrer">
                     {item?.read}
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             );
@@ -43,7 +43,7 @@ const TaxPartnersCard = () => {
                   <strong>Work from anywhere</strong> at anytime
                 </li>
               </ul>
-              <Link className="button" href="/" rel="noreferrer">
+              <Link className="button" to="/signup" rel="noreferrer">
                 Sign Up Now{" "}
               </Link>
             </div>
