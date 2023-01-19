@@ -102,9 +102,9 @@ const ApplicationForm = () => {
               {...register("Session_date_information", { required: true })}
             >
               <option selected>Choose A Session</option>
-              <option value="1">Session 6</option>
-              <option value="2">Session 7</option>
-              <option value="3">Session 8</option>
+              <option value="Session 6">Session 6</option>
+              <option value="Session 7">Session 7</option>
+              <option value="Session 8">Session 8</option>
             </select>
           </div>
           <div className="col">
@@ -118,8 +118,8 @@ const ApplicationForm = () => {
               {...register("Referred_By_A_Current_Tax", { required: true })}
             >
               <option selected></option>
-              <option value="1">Yes</option>
-              <option value="2">No</option>
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
             </select>
           </div>
         </div>
