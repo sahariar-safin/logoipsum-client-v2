@@ -1,10 +1,10 @@
 import { Icon } from "leaflet";
 import markerIconPng from "leaflet/dist/images/marker-icon.png";
 import "leaflet/dist/leaflet.css";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { FiSearch } from "react-icons/fi";
-import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
+import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
 import { taxpartnersearch } from "../../apis/taxpartner";
 import tileLayer from "./../../utils/tileLayer";
 import LocationCard from "./LocationCard";
@@ -51,15 +51,30 @@ const LocationDetails = () => {
       console.log(error);
     }
   };
+
+  function FlyMapTo() {
+
+    const map = useMap()
+
+    useEffect(() => {
+      map.flyTo(point)
+    }, [point])
+
+    return null
+  }
+
+
   return (
     <div className={styles.LocationDetails}>
       <div className="container">
         <div className="row">
           <div className="col-lg-8 col-md-8 col-sm-12">
-            <MapContainer center={point} zoom={10} scrollWheelZoom={true}>
+            <MapContainer center={point} zoom={10} scrollWheelZoom={true} >
+
               <TileLayer {...tileLayer} />
 
               <MyMarkers data={partnerLocations} />
+              <FlyMapTo />
             </MapContainer>
           </div>
           <div className="col-lg-4 col-md-8 col-sm-12">
