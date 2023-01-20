@@ -46,7 +46,7 @@ const LocationDetails = () => {
     try {
       const res = await taxpartnersearch(body.search);
       setPartnerLocations(res.data.data);
-      setPoint(res.data.data[0]);
+      res.data.data[0] && setPoint(res.data.data[0]);
     } catch (error) {
       console.log(error);
     }
