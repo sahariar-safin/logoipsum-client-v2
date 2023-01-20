@@ -6,9 +6,9 @@ import styles from "./Locations.module.css";
 
 import locationImage from "../../assets/images/Locations/man2.jpg";
 
-const LocationCard = ({ location }) => {
+const LocationCard = ({ location, setPoint }) => {
     return (
-        <div className={styles.card}>
+        <div onClick={() => setPoint(location)} className={styles.card}>
             <div className={styles.cardHeader}>
                 <img src={location?.image} alt="locationImage" width={70} height={70} />
                 <h3>{location?.name}</h3>

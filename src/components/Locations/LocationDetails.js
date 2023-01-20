@@ -91,7 +91,7 @@ const LocationDetails = () => {
             <div className={styles.LocationCard}>
               {
                 partnerLocations.map((location, index) => (
-                  <LocationCard key={index} location={location} />
+                  <LocationCard key={index} location={location} setPoint={setPoint} />
                 ))
               }
             </div>
